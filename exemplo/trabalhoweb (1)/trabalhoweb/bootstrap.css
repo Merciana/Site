@@ -1,0 +1,140 @@
+.nav-item{
+  text-decoration: none;
+}
+
+#divBusca {
+  background-color: #e754cf;
+  border: solid 1px;
+  border-radius: 15px;
+  width: 300px;
+}
+
+#txtBusca {
+  float: left;
+  background-color: transparent;
+  padding-left: 5px;
+  font-style: italic;
+  font-size: 18px;
+  border: none;
+  height: 32px;
+  width: 191px;
+}
+
+#divBusca {
+  background-color: #f2c8f3;
+  border: solid 2px #c41a83;
+  border-radius: 10px;
+  width: 300px;
+  height: 32px;
+}
+
+#txtBusca {
+  float: left;
+  background-color: transparent;
+  padding-left: 5px;
+  font-size: 18px;
+  border: none;
+  height: 32px;
+  width: 191px;
+}
+
+#principal {
+  font-style: oblique;
+  font-weight: 500;
+  font-variant: small-caps;
+  font-stretch: ultra-expanded;
+  background-image: url(images1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: rgb(31, 11, 87);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 100px;
+}
+
+#cor {
+  background-color: rgb(207, 114, 164);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 100px;
+}
+
+#cor2 {
+  background-color: rgb(96, 112, 255);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 100px;
+}
+form {
+  /* Apenas para centralizar o form na página */
+  margin: 0 auto;
+  width: 900px;
+  /* Para ver as bordas do formulário */
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+}
+form div + div {
+  margin-top: 1em;
+}
+label {
+  /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
+  display: inline-block;
+  width: 200px;
+  text-align: right;
+}
+input,
+textarea {
+  /* Para certificar-se que todos os campos de texto têm as mesmas configurações de fonte. Por padrão, textareas ter uma fonte monospace*/
+  font: 1em sans-serif;
+
+  /* Para dar o mesmo tamanho a todos os campo de texto */
+  width: 500px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  /* Para harmonizar o look & feel das bordas nos campos de texto*/
+  border: 1px solid #999;
+}
+input:focus,
+textarea:focus {
+  /* Dar um pouco de destaque nos elementos ativos */
+  border-color: #000;
+}
+textarea {
+  /* Para alinhar corretamente os campos de texto de várias linhas com sua label*/
+  vertical-align: top;
+
+  /* Para dar espaço suficiente para digitar algum texto */
+  height: 10em;
+
+  /* Para permitir aos usuários redimensionarem qualquer textarea verticalmente. Ele não funciona em todos os browsers */
+  resize: vertical;
+}
+.button {
+  /* Para posicionar os botões para a mesma posição dos campos de texto */
+  padding-left: 100px; /* mesmo tamanho que os elementos do tipo label */
+}
+button {
+  /* Esta margem extra representa aproximadamente o mesmo espaço que o espaço entre as labels e os seus campos de texto*/
+  margin-left: 0.5em;
+  background-color: rgb(218, 95, 111);
+}
+#footer {
+  background-color: rgb(31, 42, 54);
+  align-items: center;
+  text-align: center;
+  color: aliceblue;
